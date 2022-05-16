@@ -81,7 +81,7 @@ input {
 
 .bingo-items {
     margin: 20px;
-    width: 780px;
+    max-width: 780px;
     min-height: 100px;
     display: flex;
     flex-wrap: wrap;
