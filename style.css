@@ -202,6 +202,20 @@ input {
         background-color: #BFB5AF;
     }
 
+    .bingo-item .description {
+        visibility: hidden;
+        width: 220px;
+        padding: 10px;
+        margin: -40px 0px 0px 6px;
+        border-radius: 9px;
+        background-color: #BFB5AF;
+        color: #25283D;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        font-size: 1.3rem;
+    }
+
     .not:after {
         top: -16px;
         left: 43px;
