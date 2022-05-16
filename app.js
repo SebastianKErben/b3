@@ -11,7 +11,6 @@ const runApp = () => {
             const unhighlightDropzone = (event) => event.target.classList.remove('highlight');
         
             const drop = (event) => {
-                event.preventDefault();
                 unhighlightDropzone(event);
         
                 if (event.target.classList.contains('bingo-item')) {
