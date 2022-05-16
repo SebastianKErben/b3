@@ -53,15 +53,16 @@ const runApp = () => {
         
             const showDescription = (element) => element.firstElementChild?.classList.remove('hide');
             const dragEnd = (event) => showDescription(event.target);
+            const preventDefault = (event) => event.preventDefault();
         
             items.forEach(item => {
                 item.addEventListener('dragstart', dragStart);
                 item.addEventListener('dragend', dragEnd);
-                item.addEventListener('touchstart', () => {}, false);
-                item.addEventListener('touchend', () => {},false);
-                item.addEventListener('touchcancel', () => {}, false);
-                item.addEventListener('touchleave', () => {}, false);
-                item.addEventListener('touchmove', () => {}, false);
+                item.addEventListener('touchstart', preventDefault, false);
+                item.addEventListener('touchend', preventDefault,false);
+                item.addEventListener('touchcancel', preventDefault, false);
+                item.addEventListener('touchleave', preventDefault, false);
+                item.addEventListener('touchmove', preventDefault, false);
             });
         }
         
