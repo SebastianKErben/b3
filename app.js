@@ -1,6 +1,8 @@
 'use strict';
 
 const runApp = () => {
+    document.querySelector('#js-ver').innerHTML = '0.3';
+
     const createDropzones = () => {
         const applyDropzoneBehaviourToDropzones = (dropzones) => {
             const highlightDropzone = (event) => {
