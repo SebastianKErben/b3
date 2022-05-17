@@ -88,7 +88,7 @@ input {
 
 .bingo-items {
   margin: 20px;
-  max-width: 780px;
+  max-width: 267px;
   min-height: 100px;
   display: flex;
   flex-wrap: wrap;
@@ -278,7 +278,7 @@ input {
 
   .bingo-items {
     margin: 20px;
-    max-width: 780px;
+    max-width: 732px;
     min-height: 100px;
     display: flex;
     flex-wrap: wrap;
