@@ -246,6 +246,18 @@ input {
   background-image: url("img/pirate.jpg");
 }
 
+.prime-trilogy {
+  background-image: url("img/primetrilogy.jpg");
+}
+
+.mini-console {
+  background-image: url("img/miniconsole.jpg");
+}
+
+.sega {
+  background-image: url("img/sega.jpg");
+}
+
 .joker {
   background-image: url("img/joker.jpg");
 }
