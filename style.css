@@ -147,8 +147,16 @@ input {
     background-image: url("img/alanwake.png");
 }
 
-.doom {
-    background-color: brown;
+.botw-2 {
+    background-image: url("img/botw.jpg");
+}
+
+.new-switch {
+    background-image: url("img/switch2.png");
+}
+
+.xbox {
+    background-image: url("img/xbox.png");
 }
 
 .hide {
