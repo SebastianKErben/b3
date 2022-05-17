@@ -214,6 +214,42 @@ input {
   background-image: url("img/cat.jpg");
 }
 
+.resident-evil {
+  background-image: url("img/residentevil.jpg");
+}
+
+.witch {
+  background-image: url("img/witch.png");
+}
+
+.dc {
+  background-image: url("img/dc.jpg");
+}
+
+.marvel {
+  background-image: url("img/marvel.png");
+}
+
+.kojima {
+  background-image: url("img/kojima.jpg");
+}
+
+.playstation {
+  background-image: url("img/playstation.jpg");
+}
+
+.chainsaw {
+  background-image: url("img/chainsaw.png");
+}
+
+.pirate {
+  background-image: url("img/pirate.jpg");
+}
+
+.joker {
+  background-image: url("img/joker.jpg");
+}
+
 .hide {
   display: none;
 }
