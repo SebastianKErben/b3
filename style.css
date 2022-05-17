@@ -198,6 +198,22 @@ input {
   background-image: url("img/ukraine.jpg");
 }
 
+.fable {
+  background-image: url("img/fable.jpg");
+}
+
+.mafia {
+  background-image: url("img/mafia.png");
+}
+
+.creed {
+  background-image: url("img/assassinscreed.png");
+}
+
+.cat {
+  background-image: url("img/cat.jpg");
+}
+
 .hide {
   display: none;
 }
