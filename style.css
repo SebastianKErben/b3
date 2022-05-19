@@ -266,6 +266,17 @@ input {
   display: none;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div a {
+  color: #CD533B;
+}
+
 @media screen and (min-device-width: 570px) {
   .bingo-fields {
     width: 411px;
