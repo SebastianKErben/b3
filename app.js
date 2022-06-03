@@ -1,7 +1,7 @@
 'use strict';
 
 const runApp = () => {
-  document.querySelector('#js-ver').innerHTML = '0.3.2';
+  document.querySelector('#js-ver').innerHTML = '0.3.3';
 
   const createDropzones = () => {
     const applyDropzoneBehaviourToDropzones = (dropzones) => {
@@ -21,8 +21,6 @@ const runApp = () => {
         }
 
         const id = event.dataTransfer.getData('text/plain');
-        event.dataTransfer.clearData();
-
         const draggable = document.getElementById(id);
         event.target.appendChild(draggable);
 
